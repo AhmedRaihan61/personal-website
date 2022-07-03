@@ -1,0 +1,145 @@
+.topHeader {
+  display: flex;
+  margin: 50px;
+  background: url("../image/header-bg.png") center center / cover no-repeat;
+}
+.content h5 {
+  font-size: 40px;
+}
+.topHecontentader h3 {
+}
+.content h3 {
+  color: rgb(180, 54, 88);
+  font-size: 30px;
+}
+.content p {
+  margin-bottom: 25px;
+  color: gray;
+}
+.content a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgb(180, 54, 88);
+  color: rgb(255, 255, 255);
+  padding: 11px 25px;
+  border-radius: 6px;
+}
+.content a:hover {
+  box-shadow: 10px 10px 40px gray;
+  transition: 0.5s;
+}
+.content {
+  width: 45%;
+  margin-left: 40px;
+}
+.topHeaderImage {
+}
+.topHeaderImage img {
+  width: 70%;
+  float: right;
+}
+.biography {
+  display: flex;
+  margin: 50px 0px;
+  background: url("../image/biography-bg.png") center center / cover no-repeat;
+  padding: 100px;
+}
+.biographyContent h3 {
+}
+.biographyContent p {
+  color: gray;
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
+.biographyContent a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgb(180, 54, 88);
+  color: rgb(255, 255, 255);
+  padding: 11px 25px;
+  border-radius: 6px;
+}
+
+.biographyContent a:hover {
+  box-shadow: 10px 10px 40px gray;
+  transition: 0.5s;
+}
+.biographyContent {
+  width: 50%;
+  margin-top: 15%;
+}
+.biographyImage img {
+  width: 80%;
+  margin-left: 50px;
+}
+
+/*  */
+
+.latestWork {
+  text-align: center;
+  margin: 0 142px;
+  background: url(../image/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.workImage {
+  display: flex;
+}
+.workImage img {
+  width: 85%;
+}
+
+/*  */
+.client {
+  background: url(../image/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.clientSay {
+  text-align: center;
+}
+.clientSay h2 {
+  font-size: 30px;
+}
+.clientSay h5 {
+  font-size: 20px;
+}
+.clientSay p {
+  color: gray;
+}
+.clientSay h6 {
+  font-size: 20px;
+  padding: 0 17%;
+  font-weight: 300;
+  margin-bottom: 90px;
+}
+.leaveMessgae {
+  text-align: center;
+  color: #fff;
+  padding: 23px 0;
+  border-radius: 13px;
+}
+.leaveMessgae:hover {
+  box-shadow: 10px 10px 40px gray;
+  transition: 0.5s;
+}
+.leaveMessgae h4 {
+}
+.leaveMessgae h5 {
+  color: #fff;
+}
+
+.leaveMessgae {
+  background: #b43658;
+  width: 40%;
+  margin-left: 31%;
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  padding: 200px 0;
+}
